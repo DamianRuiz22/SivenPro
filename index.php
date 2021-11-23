@@ -1,7 +1,7 @@
 <?php
   session_start();
   if($_SESSION['interno_usuario']!="" || $_SESSION['interno_usuario']!=null){
-    header('Location: sivenpro/main2/index.php');
+    header("Location: sivenpro/main2/index.php");
     die();
   }
 ?>
